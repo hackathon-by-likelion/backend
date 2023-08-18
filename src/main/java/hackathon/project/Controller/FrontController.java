@@ -13,4 +13,7 @@ public class FrontController {
 
     @GetMapping("/game/Korail/solo")
     public String solo() { return "redirect:http://101.101.210.80:3000/reserve_main"; }
+
+    @GetMapping("/Korail")
+    public String korail(){ return "redirect:http://101.101.210.80:3000/Korail"; }
 }
